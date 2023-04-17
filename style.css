@@ -1,0 +1,40 @@
+header {
+    display: flex;
+    width: 100%;
+}
+
+header a img{
+    width: 127%;
+    z-index: 2;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+body img{
+    justify-content: right;
+}
+ul{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    flex: 50%;
+    
+}
+ul li a{
+    border: solid 2px #0000;
+    display: block;
+    background-color: rgb(155, 85, 85);
+}
+menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+footer{
+background-color: rgb(36, 36, 36);
+}
+footer img{
+    width: 100%;
+}
